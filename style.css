@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 15px auto ;
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+h5{
+    color: gold;
+}
+
+.notey {
+    color: aliceblue;
+}
+
+.row {
+    text-align: center;
+}
+
+hr {
+    color: yellow;
+    margin: 1rem;
+}
+p{
+    color: rgb(192, 185, 176);
+    font-size: larger;
+    font-family: 'Franklin Gothic large', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgb(65, 65, 65);
+}
+
+
+
+/* here is responsive */
+
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url(img/70172.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .conimg {
+        height: 20rem;
+        width: 40rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(img/70172.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .conimg {
+        height: 1rem;
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(img/1910707.webp);
+        /* background-repeat: no-repeat; */
+        background-size: 100%;
+    }
+
+    .conimg {
+        height: 10rem;
+        width: 20rem;
+    }
+
+}
